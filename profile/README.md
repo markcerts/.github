@@ -11,3 +11,10 @@ Easy ways to consume the certificate bundle in your projects:
 
 - [mvarcs-python](https://github.com/markcerts/mvarcs-python)
 - [mvarcs-nodejs](https://github.com/markcerts/mvarcs-nodejs)
+
+## 📚 References
+
+- [**BIMI Group**](https://bimigroup.com)
+- [**AuthIndicators GitHub**](https://github.com/authindicators)
+- [**Fetching and Validating VMCs (IETF Draft)**](https://datatracker.ietf.org/doc/html/draft-fetch-validation-vmc-wchuang)
+- [**BIMI (IETF Draft)**](https://datatracker.ietf.org/doc/html/draft-brand-indicators-for-message-identification)
