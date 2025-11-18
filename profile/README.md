@@ -1,19 +1,12 @@
-Utilities for Mark Certificates (**markcerts**) is an open-source ecosystem for managing and distributing
-trusted Mark Verifying Authority (MVA) root certificates. It provides lightweight, language-friendly
-packages for securely embedding and updating MVA root certificates in applications and tooling. 🔐
+markcerts is a toolkit and ecosystem for handling mark certificates, along with a trusted root certificate store for Mark Verifying Authorities (MVAs). Its aim is to provide clean, language-friendly utilities for working with authenticated marks and their supporting certificate chains. 🔐
 
-The primary use-case for **markcerts** is with **BIMI (Brand Indicators for Message Identification)**,
-where **VMCs (Verified Mark Certificates)** and **CMCs (Certified Mark Certificates)** are used to prove
-the authenticity of brand marks. In this model, markcerts acts as the root CA store that email providers
-and MTAs can use to verify the full certificate chain behind a displayed logo.
+markcerts is designed to support use cases such as BIMI (Brand Indicators for Message Identification), where VMCs (Verified Mark Certificates) and CMCs (Certified Mark Certificates) enable email providers and MTAs to authenticate displayed brand logos.
 
-## 📦 What's here?
+The primary component, [**mvarcs**](https://github.com/markcerts/mvarcs) (Mark Verifying Authority Root Certificate Store), delivers the canonical [cacert.pem](https://raw.githubusercontent.com/markcerts/mvarcs/refs/heads/main/cacert.pem) bundle for verifying MVA-issued mark certificates. Future work may expand into higher-level tooling and BIMI-related libraries.
 
-### **mvarcs**
-The [core `mvarcs` repo](https://github.com/markcerts/mvarcs) containing the canonical
-[cacert.pem](https://raw.githubusercontent.com/markcerts/mvarcs/refs/heads/main/cacert.pem) bundle.
+## 📦 What else is here?
 
-### **Libraries**
+### **mvarcs libraries**
 Easy ways to consume the certificate bundle in your projects:
 
 - [mvarcs-python](https://github.com/markcerts/mvarcs-python)
